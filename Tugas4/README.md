@@ -8,7 +8,13 @@ Big Data Spark
 
 | Code             | Screenshoot                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| https://github.com/habueb87/Big-Data-Spark-Tugas-4/blob/master/Tugas4/kode_1.py | ![gambar](https://github.com/SyariefMh/BigData_Tugas4/blob/main/Screenshot%20(10).png) |
+| from pyspark import *
+# sc = SparkContext()
+sc = SparkContext.getOrCreate();
+
+broadcastVar = sc.broadcast(list(range(1, 100)))
+# broadcastVar.value
+print (broadcastVar.value) | ![gambar](https://github.com/SyariefMh/BigData_Tugas4/blob/main/Screenshot%20(10).png) |
 
 2. System Commands Return Code
 
