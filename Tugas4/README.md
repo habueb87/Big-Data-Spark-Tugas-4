@@ -8,7 +8,7 @@ Big Data Spark
 
 | Code             | Screenshoot                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| https://github.com/habueb87/Big-Data-Spark-Tugas-4/blob/44a52c14a88793d85db7c6adfe90a101dcacb931/Tugas4/kode_1.py#L1-L8 | ![gambar](https://github.com/SyariefMh/BigData_Tugas4/blob/main/Screenshot%20(10).png) |
+| https://github.com/habueb87/Big-Data-Spark-Tugas-4/blob/44a52c14a88793d85db7c6adfe90a101dcacb931/Tugas4/kode_1.py#L1-L8 | ![gambar](https://github.com/habueb87/Big-Data-Spark-Tugas-4/blob/master/Tugas4/kode_1_ss.png) |
 
 Penjelasan:
 - sc = digunakan untuk membuat suatu object dari spark context.
