@@ -3,7 +3,7 @@ from pyspark import *
 sc = SparkContext.getOrCreate();
 
 # Get the lines from the textfile, create 4 partitions
-access_log = sc.textFile("code/practicum_week7/data/README.md", 4)
+access_log = sc.textFile("/workspaces/Big Data/Tugas4/data/README.md", 4)
 
 #Filter Lines with ERROR only
 error_log = access_log.filter(lambda x: "Spark" in x)
