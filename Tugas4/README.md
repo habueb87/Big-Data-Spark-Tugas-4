@@ -10,6 +10,13 @@ Big Data Spark
 | ----------------- | ------------------------------------------------------------------ |
 | https://github.com/habueb87/Big-Data-Spark-Tugas-4/blob/44a52c14a88793d85db7c6adfe90a101dcacb931/Tugas4/kode_1.py#L1-L8 | ![gambar](https://github.com/SyariefMh/BigData_Tugas4/blob/main/Screenshot%20(10).png) |
 
+Penjelasan:
+- sc = digunakan untuk membuat suatu object dari spark context.
+- accumulator = suatu variabel yang hanya bisa ditambahkan dengan operasi matematika yang memiliki sifat asosiatif dan komutatif (penjumlahan, pengurangan, perkalian, dan pembagian)
+- parallelize = metode pada spark context yang digunakan untuk membuat sebuah kumpulan data yang terdistribusi.
+- lambda = digunakan untuk melakukan pemetaan data atau transformasi data pada RDD (Resilient Distributed Dataset).
+- value = sebuah variabel yang menyimpan suatu nilai atau objek yang digunakan dalam proses pemrosesan data.
+
 2. System Commands Return Code
 
 | Code             | Screenshoot                                                                |
